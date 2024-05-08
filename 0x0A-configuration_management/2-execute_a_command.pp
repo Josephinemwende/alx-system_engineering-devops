@@ -1,5 +1,5 @@
 # manifest that kills a process
-exec { 'killmenow_process':
+exec { 'killmenow':
   command     => 'pkill killmenow',
   refreshonly => true,
 }
